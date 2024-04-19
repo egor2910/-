@@ -1,0 +1,51 @@
+
+.block {
+    width: 90px;
+    height: 90px;
+    background-image: url(../images/крот\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+    .list {
+        display: grid;
+        grid-template-columns: 100px 100px 90px ;
+        gap: 10px;
+    }
+
+    .active {
+    
+        background-image: url(../images/крот.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90px;
+    height: 90px;
+    }
+
+
+    .timer {
+        display: flex;
+        gap: 5px;
+      }
+      .input-time {
+        width: 55px;
+        background: none;
+        border: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+        border-bottom: 1px solid #ffffff;
+      }
+      .input-time:focus {
+        border-color: #00f271;
+      }
+.body {
+    gap: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.set-time{
+  display: flex;
+  flex-direction: row;
+
+}
