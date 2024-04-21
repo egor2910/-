@@ -5,6 +5,7 @@
     background-image: url(../images/крот\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: crosshair;
 }
     
     .list {
